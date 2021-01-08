@@ -53,7 +53,7 @@ public class EmployeeRestController {
         return theEmployee;
     }
 
-    //delete
+    //add mapping for delete
     @DeleteMapping("/employees/{employeeId}")
     public String deleteEmployee(@PathVariable int employeeId){
         Employee tempEmployee = employeeService.findById(employeeId);
