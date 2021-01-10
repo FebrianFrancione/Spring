@@ -11,4 +11,17 @@ public class DemoController {
 
         return "home";
     }
+
+    //add reuqets mapping
+    @GetMapping("/leaders")
+    public String showLeaders(){
+
+        return "leaders";
+    }
+
+    @GetMapping("/systems")
+    public String showSystems(){
+
+        return "systems";
+    }
 }

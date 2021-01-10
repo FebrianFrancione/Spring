@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+<
 <html>
 <head>
     <title>Company Home page</title>
@@ -20,6 +21,20 @@
     Role(s): <security:authentication property="principal.authorities"/>
 </p>
 <hr>
+
+<security:authorize access="hasRole('MANAGER')">
+
+
+<p>
+    <a href="${pageContext.request.contextPath}/leaders">Leadership meeting</a>
+</p>
+
+</security:authorize>
+<security:authorize access="hasRole('ADMIN')">
+<p>
+    <a href="${pageContext.request.contextPath}/systems">IT Systems meeting (Only Admins)</a>
+</p>
+</security:authorize>
 
 <form:form action="${pageContext.request.contextPath}/logout" method="POST">
 
