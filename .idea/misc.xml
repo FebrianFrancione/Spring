@@ -10,10 +10,11 @@
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/servlets/pom.xml" />
         <option value="$PROJECT_DIR$/web-customer-tracker/pom.xml" />
-        <option value="$PROJECT_DIR$/AOP/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-demo-01-base-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-demo-01-base-app/01-base-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-demo-02-basic-security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-demo-03-custom-login-for/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-demo-03-login1/pom.xml" />
       </list>
     </option>
   </component>

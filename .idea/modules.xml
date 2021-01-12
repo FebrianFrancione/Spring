@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AOP/demo (1) (com.example.spring).iml" filepath="$PROJECT_DIR$/AOP/demo (1) (com.example.spring).iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" filepath="$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbManyToMany/hbManyToMany.iml" filepath="$PROJECT_DIR$/tutorials/hbManyToMany/hbManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbOneToMany/hbOneToMany.iml" filepath="$PROJECT_DIR$/tutorials/hbOneToMany/hbOneToMany.iml" />
@@ -13,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/tutorials/hibernate-tutorial/hibernate-tutorial.iml" filepath="$PROJECT_DIR$/tutorials/hibernate-tutorial/hibernate-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-demo-01-base-app/spring-security-demo-01-base-app.iml" filepath="$PROJECT_DIR$/spring-security-demo-01-base-app/spring-security-demo-01-base-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-demo-02-basic-security/spring-security-demo-02-basic-security.iml" filepath="$PROJECT_DIR$/spring-security-demo-02-basic-security/spring-security-demo-02-basic-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-03-login1/spring-security-demo-03-login1.iml" filepath="$PROJECT_DIR$/spring-security-demo-03-login1/spring-security-demo-03-login1.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-customer-tracker/web-customer-tracker.iml" filepath="$PROJECT_DIR$/web-customer-tracker/web-customer-tracker.iml" />
     </modules>
   </component>
