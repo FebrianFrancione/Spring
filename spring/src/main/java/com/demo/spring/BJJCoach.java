@@ -5,4 +5,9 @@ public class BJJCoach implements Coach{
     public String getDailyWorkout(){
         return "Porra! Nice choke!";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
