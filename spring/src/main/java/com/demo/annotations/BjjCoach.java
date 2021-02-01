@@ -11,4 +11,9 @@ public class BjjCoach implements Coach{
         return"practice bjj porra";
     }
 
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
+
 }
