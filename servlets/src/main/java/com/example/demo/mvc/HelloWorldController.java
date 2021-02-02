@@ -30,7 +30,7 @@ public class HelloWorldController {
         //convert data to all caps
         theName = theName.toUpperCase();
 
-        String result = "Yo! " + theName;
+        String result = "Yo!! " + theName;
         //create message and add message to model
         model.addAttribute("message" , result);
         return "helloworld";
