@@ -37,13 +37,13 @@
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <artifactId>com.demo.spring-context</artifactId>
             <version>5.3.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <artifactId>com.demo.spring-context</artifactId>
             <version>5.3.3</version>
             <scope>compile</scope>
         </dependency>

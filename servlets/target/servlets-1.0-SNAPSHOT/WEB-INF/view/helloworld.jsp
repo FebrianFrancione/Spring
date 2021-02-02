@@ -11,7 +11,7 @@
     <title>hello world</title>
 </head>
 <body>
-    Hello world Spring
+    Hello world Spring!
 <br>
 Student name: ${param.studentName}
 <br>
