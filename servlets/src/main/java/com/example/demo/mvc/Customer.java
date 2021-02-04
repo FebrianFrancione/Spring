@@ -1,5 +1,7 @@
 package com.example.demo.mvc;
 
+import com.example.demo.mvc.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -18,9 +20,18 @@ public class Customer {
     @Size(min=1, message = "is required")
     private String lastName;
 
+    @CourseCode(value = "TOPS", message = "Must start with TOPS")
+    private String courseCode;
 
 
 
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
+    }
 
     public String getPostalCode() {
         return postalCode;
