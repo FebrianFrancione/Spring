@@ -5,8 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class PrimaryKeyDemo {
-
+public class DeleteStudentDemo {
     public static void main(String[] args) {
         //create session factory
         SessionFactory factory = new Configuration().configure("hibernate-tutorial/src/hibernate.cfg.xml").addAnnotatedClass(Student.class).buildSessionFactory();
@@ -16,21 +15,26 @@ public class PrimaryKeyDemo {
 
         try{
 
-            //use session obj to save JAVA obj
-//           create 3 student objs
-            System.out.println("Creating new Student obj:");
-            Student tempStudent1 = new Student("john", "Smith", "john@email.com");
-            Student tempStudent2 = new Student("Mary", "Burg", "mary@email.com");
-            Student tempStudent3 = new Student("Bonita", "lee", "bonita@email.com");
-            //start transaction
-            session.beginTransaction();
-            //save the student obj
-            System.out.println("saving the Student");
-            session.save(tempStudent1);
-            session.save(tempStudent2);
-            session.save(tempStudent3);
+            int studentId = 1;
 
-            //commit trasnaction
+            //get sessions new and start transaction.
+            session = factory.getCurrentSession();
+            session.beginTransaction();
+
+            //retrieve student based on the id: primary key
+            System.out.println("\nGetting student with id: " + studentId);
+
+            Student myStudent = session.get(Student.class, studentId);
+
+            //new code delete
+//            System.out.println("Deleting student: " + myStudent);
+//            session.delete(myStudent);
+
+
+            //delete studetn with id = 2
+            System.out.println("delete fro mstuden where id = 2");
+            session.createQuery("delete from Student where id=4").executeUpdate();
+
             session.getTransaction().commit();
             System.out.println("done!");
         }finally {
@@ -38,4 +42,3 @@ public class PrimaryKeyDemo {
         }
     }
 }
-
