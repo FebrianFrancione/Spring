@@ -14,12 +14,7 @@
           <element id="module-output" name="demo" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.3" />
+          <element id="library" level="project" name="Maven: org.springframework:com.demo.spring-context:5.3.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
