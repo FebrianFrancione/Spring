@@ -1,4 +1,4 @@
-package com.demo.hibernate.demo.entity;
+package hbOneToOnebi.src.com.demo.hibernate.demo.entity;
 
 import javax.persistence.*;
 
@@ -32,8 +32,7 @@ public class InstructorDetail {
     @Column(name = "hobby")
     private String hobby;
 
-    public InstructorDetail(){
-
+    public InstructorDetail() {
     }
 
     public InstructorDetail(String youtubeChannel, String hobby) {
@@ -74,4 +73,7 @@ public class InstructorDetail {
                 ", hobby='" + hobby + '\'' +
                 '}';
     }
+
+
+
 }

@@ -18,10 +18,16 @@ public class CreateDemo {
 
         try{
 
-            //create obj
-            Instructor tempInstructor = new Instructor("Chad", "Dhark", "dhark@mail.com");
+//            //create obj
+//            Instructor tempInstructor = new Instructor("Chad", "Dhark", "dhark@mail.com");
+//
+//            InstructorDetail tempInstructorDetail = new InstructorDetail("http://febri.com/youtube", "coding");
 
-            InstructorDetail tempInstructorDetail = new InstructorDetail("http://febri.com/youtube", "coding");
+            //create obj
+            Instructor tempInstructor = new Instructor("Madhu", "Patel", "madhu@mail.com");
+
+            InstructorDetail tempInstructorDetail = new InstructorDetail("http://febri.com/youtube", "guitar");
+
             //associate obj
             tempInstructor.setInstructorDetail(tempInstructorDetail);
 

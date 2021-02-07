@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/demo (1) (com.example.spring).iml" filepath="$PROJECT_DIR$/spring/demo (1) (com.example.spring).iml" />
       <module fileurl="file://$PROJECT_DIR$/hbOneToOne/hbOneToOne.iml" filepath="$PROJECT_DIR$/hbOneToOne/hbOneToOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbOneToOneBi/hbOneToOneBi.iml" filepath="$PROJECT_DIR$/hbOneToOneBi/hbOneToOneBi.iml" />
       <module fileurl="file://$PROJECT_DIR$/hibernate-tutorial/hibernate-tutorial.iml" filepath="$PROJECT_DIR$/hibernate-tutorial/hibernate-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlets/servlets.iml" filepath="$PROJECT_DIR$/servlets/servlets.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
