@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/demo (1) (com.example.spring).iml" filepath="$PROJECT_DIR$/spring/demo (1) (com.example.spring).iml" />
       <module fileurl="file://$PROJECT_DIR$/hbEagerVsLazy/hbEagerVsLazy.iml" filepath="$PROJECT_DIR$/hbEagerVsLazy/hbEagerVsLazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbManyToMany/hbManyToMany.iml" filepath="$PROJECT_DIR$/hbManyToMany/hbManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/hbOneToMany/hbOneToMany.iml" filepath="$PROJECT_DIR$/hbOneToMany/hbOneToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/hbOneToManyUni/hbOneToManyUni.iml" filepath="$PROJECT_DIR$/hbOneToManyUni/hbOneToManyUni.iml" />
       <module fileurl="file://$PROJECT_DIR$/hbOneToOne/hbOneToOne.iml" filepath="$PROJECT_DIR$/hbOneToOne/hbOneToOne.iml" />
