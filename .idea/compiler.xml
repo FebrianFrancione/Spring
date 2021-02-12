@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
         <module name="servlets" />
+        <module name="DbApp" />
         <module name="demo" />
         <module name="demo (1) (com.example.spring)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DbApp" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo (1) (com.example.spring)" target="15" />
       <module name="servlets" target="1.8" />
