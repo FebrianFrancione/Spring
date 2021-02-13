@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DbApp/DbApp.iml" filepath="$PROJECT_DIR$/DbApp/DbApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tutorials/spring/demo (1) (com.example.spring).iml" filepath="$PROJECT_DIR$/tutorials/spring/demo (1) (com.example.spring).iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" filepath="$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbManyToMany/hbManyToMany.iml" filepath="$PROJECT_DIR$/tutorials/hbManyToMany/hbManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbOneToMany/hbOneToMany.iml" filepath="$PROJECT_DIR$/tutorials/hbOneToMany/hbOneToMany.iml" />
@@ -12,8 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbOneToOne/hbOneToOne.iml" filepath="$PROJECT_DIR$/tutorials/hbOneToOne/hbOneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbOneToOneBi/hbOneToOneBi.iml" filepath="$PROJECT_DIR$/tutorials/hbOneToOneBi/hbOneToOneBi.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hibernate-tutorial/hibernate-tutorial.iml" filepath="$PROJECT_DIR$/tutorials/hibernate-tutorial/hibernate-tutorial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tutorials/servlets/servlets.iml" filepath="$PROJECT_DIR$/tutorials/servlets/servlets.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/spring/spring.iml" filepath="$PROJECT_DIR$/tutorials/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-customer-tracker/web-customer-tracker.iml" filepath="$PROJECT_DIR$/web-customer-tracker/web-customer-tracker.iml" />
     </modules>
   </component>
 </project>

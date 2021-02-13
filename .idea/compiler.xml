@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
-        <module name="servlets" />
-        <module name="DbApp" />
         <module name="demo" />
-        <module name="demo (1) (com.example.spring)" />
+        <module name="web-customer-tracker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +17,7 @@
       <module name="demo (1) (com.example.spring)" target="15" />
       <module name="servlets" target="1.8" />
       <module name="spring" target="15" />
+      <module name="web-customer-tracker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
