@@ -6,4 +6,4 @@ Goal is to learn the starting steps of Spring.
 
 Uses tomcat servlets.
 
-Concepts learned: CRUD operations, Hibernate, mysql connected apps
+Concepts learned: CRUD operations, Hibernate, mysql connected apps, dbapp
