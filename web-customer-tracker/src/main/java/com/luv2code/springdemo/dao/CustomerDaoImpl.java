@@ -22,7 +22,7 @@ public class CustomerDaoImpl implements CustomerDao{
     public List<Customer> getCustomers(){
         Session currentSession = sessionFactory.getCurrentSession();
 
-        Query<Customer> theQuery = currentSession.createQuery("from Customer order by lastName1", Customer.class);
+        Query<Customer> theQuery = currentSession.createQuery("from Customer order by lastName", Customer.class);
 
         List<Customer> customers = theQuery.getResultList();
 
@@ -33,7 +33,20 @@ public class CustomerDaoImpl implements CustomerDao{
     public void saveCustomer(Customer theCustomer) {
         Session currentSession = sessionFactory.getCurrentSession();
 
-        currentSession.save(theCustomer);
+        //save / update
+        currentSession.saveOrUpdate(theCustomer);
     }
+
+    @Override
+    public Customer getCustomer(int theId) {
+
+        //getr hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+        //read from db with id
+        Customer theCustomer = currentSession.get(Customer.class, theId);
+
+        return theCustomer;
+    }
+
 
 }
