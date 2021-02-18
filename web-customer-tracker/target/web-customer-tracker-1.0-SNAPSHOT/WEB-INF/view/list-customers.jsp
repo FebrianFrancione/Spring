@@ -8,7 +8,6 @@
 --%>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -20,20 +19,32 @@
     <div id="header">
         <h2>CRM - Customer Relationship Manager</h2>
     </div>
+</div>
 
-    <div id="container">
-        <h3>Save Customer</h3>
-        <form:form action ="saveCustomer" modelAttribute="customer" method = "POST">
-            <table>
-                <tbody>
+<div id="container">
+    <div id="content">
+
+        <input type="button" value="Add Customer" onclick="window.location.href = 'showFormForAdd'; return false;" class="add-button"/>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>email</th>
+            </tr>
+            <c:forEach var="tempCustomer" items="${customers}">
                 <tr>
-                    <td><label>First Name:</label></td>
-                    <td><form:input path="firstName"/></td>
+                    <td>${tempCustomer.firstName}</td>
+                    <td>${tempCustomer.lastName}</td>
+                    <td>${tempCustomer.email}</td>
                 </tr>
-                </tbody>
-            </table>
-        </form:form>
+
+            </c:forEach>
+
+        </table>
+
+
     </div>
+
 </div>
 </body>
 </html>
