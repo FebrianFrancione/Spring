@@ -12,13 +12,13 @@ public class MyDemoLoggingAspect {
 
 
 
-    @Pointcut("execution(* com.demo.pointcutDeclarations.Dao.*.*(..))")
+    @Pointcut("execution(* com.demo.combo.Dao.*.*(..))")
     private void forDaoPackage(){}
 
-    @Pointcut("execution(* com.demo.pointcutDeclarations.Dao.*.get*(..))")
+    @Pointcut("execution(* com.demo.combo.Dao.*.get*(..))")
     private void getter(){}
 
-    @Pointcut("execution(* com.demo.pointcutDeclarations.Dao.*.set*(..))")
+    @Pointcut("execution(* com.demo.combo.Dao.*.set*(..))")
     private void setter(){}
 
     @Pointcut("forDaoPackage() && !(getter() || setter())")

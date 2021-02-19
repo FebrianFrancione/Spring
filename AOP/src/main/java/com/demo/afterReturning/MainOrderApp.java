@@ -1,14 +1,14 @@
-package com.demo.combo;
+package com.demo.afterReturning;
 
-import com.demo.combo.Account;
-import com.demo.combo.Dao.AccountDao;
-import com.demo.combo.Dao.MembershipDao;
+
+import com.demo.afterReturning.Dao.AccountDao;
+import com.demo.afterReturning.Dao.MembershipDao;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class MainDemoApp {
+public class MainOrderApp {
     public static void main(String[] args) {
 
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(com.demo.combo.DemoConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
 
         AccountDao theAccountDao = context.getBean("accountDao", AccountDao.class);
 
@@ -16,8 +16,13 @@ public class MainDemoApp {
         MembershipDao theMembershipDao = context.getBean("membershipDao", MembershipDao.class);
 
         Account myAccount = new Account();
+        myAccount.setName("John");
+        myAccount.setLevel("Platinum");
+
         theAccountDao.addAccount(myAccount, true);
         theAccountDao.doWork();
+
+
 
 
         theAccountDao.setName("foobar");
