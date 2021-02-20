@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-01-base-app/01-base-app/01-base-app.iml" filepath="$PROJECT_DIR$/spring-security-demo-01-base-app/01-base-app/01-base-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP/demo (1) (com.example.spring).iml" filepath="$PROJECT_DIR$/AOP/demo (1) (com.example.spring).iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" filepath="$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" />
