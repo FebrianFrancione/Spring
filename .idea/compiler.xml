@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="01-base-app" />
+        <module name="spring-security" />
+        <module name="spring-security-demo-01-base-app" />
         <module name="web-customer-tracker" />
         <module name="demo" />
         <module name="demo (1) (com.example.spring)" />
@@ -19,7 +20,9 @@
       <module name="demo (1) (com.example.spring)" target="15" />
       <module name="servlets" target="1.8" />
       <module name="spring" target="15" />
+      <module name="spring-security" target="1.8" />
       <module name="spring-security-demo" target="1.8" />
+      <module name="spring-security-demo-01-base-app" target="1.8" />
       <module name="web-customer-tracker" target="1.8" />
     </bytecodeTargetLevel>
   </component>

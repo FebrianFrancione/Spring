@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="spring-security-demo:war">
-    <output-path>$PROJECT_DIR$/spring-security-demo-01-base-app/target</output-path>
+    <output-path>$PROJECT_DIR$/spring-security-demo-01-base-app/01-base-app/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>spring-security-demo</module>

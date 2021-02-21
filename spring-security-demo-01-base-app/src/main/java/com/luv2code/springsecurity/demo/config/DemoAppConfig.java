@@ -1,4 +1,4 @@
-package config;
+package com.luv2code.springsecurity.demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -9,18 +9,17 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan()
+@ComponentScan(basePackages = "com.luv2code.springsecurity.demo")
 public class DemoAppConfig {
-
-
+    //define bean for view resolver
     @Bean
     public ViewResolver viewResolver(){
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 
-        viewResolver.setPrefix("WEB-INF/view/");
+        viewResolver.setPrefix("/WEB-INF/view/");
+
         viewResolver.setSuffix(".jsp");
 
         return viewResolver;
     }
-
 }
