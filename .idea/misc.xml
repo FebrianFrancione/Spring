@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/AOP/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-demo-01-base-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-demo-01-base-app/01-base-app/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-demo-02-basic-security/pom.xml" />
       </list>
     </option>
   </component>
