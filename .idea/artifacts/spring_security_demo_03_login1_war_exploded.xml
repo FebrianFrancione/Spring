@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="spring-security-demo-03-login1" />
+          <element id="module-output" name="spring-security-demo-03-login" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:5.0.0.RELEASE" />
@@ -36,9 +36,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/spring-security-demo-03-login1/target/spring-security-demo-01-base-app-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/spring-security-03/target/spring-security-demo-01-base-app-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="spring-security-demo-03-login1/web/Web" />
+      <element id="javaee-facet-resources" facet="spring-security-demo-03-login/web/Web" />
     </root>
   </artifact>
 </component>

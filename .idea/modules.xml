@@ -10,9 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbOneToOne/hbOneToOne.iml" filepath="$PROJECT_DIR$/tutorials/hbOneToOne/hbOneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbOneToOneBi/hbOneToOneBi.iml" filepath="$PROJECT_DIR$/tutorials/hbOneToOneBi/hbOneToOneBi.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hibernate-tutorial/hibernate-tutorial.iml" filepath="$PROJECT_DIR$/tutorials/hibernate-tutorial/hibernate-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-03/spring-security-03.iml" filepath="$PROJECT_DIR$/spring-security-03/spring-security-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-demo-01-base-app/spring-security-demo-01-base-app.iml" filepath="$PROJECT_DIR$/spring-security-demo-01-base-app/spring-security-demo-01-base-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-demo-02-basic-security/spring-security-demo-02-basic-security.iml" filepath="$PROJECT_DIR$/spring-security-demo-02-basic-security/spring-security-demo-02-basic-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-03-login1/spring-security-demo-03-login1.iml" filepath="$PROJECT_DIR$/spring-security-demo-03-login1/spring-security-demo-03-login1.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-customer-tracker/web-customer-tracker.iml" filepath="$PROJECT_DIR$/web-customer-tracker/web-customer-tracker.iml" />
     </modules>
   </component>
