@@ -34,6 +34,9 @@
         Password: <input type="password" name="password"/>
     </p>
     <input type="submit" value="Login"/>
+
+<%--    mannuallyaddin tokens--%>
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 </form:form>
 </body>
 </html>
