@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-demo-02-basic-security" />
         <module name="spring-security" />
         <module name="spring-security-demo-01-base-app" />
         <module name="web-customer-tracker" />
+        <module name="SpringBoot" />
         <module name="demo" />
-        <module name="spring-security-demo-02-basic-security" />
         <module name="spring-security-03" />
       </profile>
     </annotationProcessing>
@@ -29,11 +30,13 @@
       <module name="spring-security-demo-03-custom-login-for" target="1.8" />
       <module name="spring-security-demo-03-custom-login-form" target="1.8" />
       <module name="spring-security-demo-03-login" target="1.8" />
+      <module name="SpringBoot" target="15" />
       <module name="web-customer-tracker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot" options="-parameters" />
       <module name="demo (1) (com.example.spring)" options="-parameters" />
       <module name="spring" options="-parameters" />
     </option>
