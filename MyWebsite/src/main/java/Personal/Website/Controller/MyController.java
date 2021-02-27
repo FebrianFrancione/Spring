@@ -9,13 +9,30 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MyController {
 
     @GetMapping("/")
-    public String sayHello(Model theModel){
-        theModel.addAttribute("theDate", new java.util.Date());
+    public String showHome(Model model){
+        model.addAttribute("theDate", new java.util.Date());
 
-        return "helloworld";
+        return "Home";
     }
     @GetMapping("/CurriculumVitae")
     public String showCV(Model model){
-        return "CV";
+        return "CurriculumVitae";
     }
+
+    @GetMapping("/Projects")
+    public String showProjects(Model model){
+        return "Projects";
+    }
+
+    @GetMapping("/About")
+    public String showAbout(Model model){
+        return "About";
+    }
+
+    @GetMapping("/Contact")
+    public String showContact(Model model){
+        return "Contact";
+    }
+
+
 }
