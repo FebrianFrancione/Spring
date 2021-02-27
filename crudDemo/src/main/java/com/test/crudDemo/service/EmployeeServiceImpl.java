@@ -3,6 +3,7 @@ package com.test.crudDemo.service;
 import com.test.crudDemo.Dao.EmployeeDao;
 import com.test.crudDemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -14,7 +15,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     private EmployeeDao employeeDao;
 
     @Autowired
-    public EmployeeServiceImpl(EmployeeDao theEmployeeDao){
+    public EmployeeServiceImpl(@Qualifier("employeeDaoJpaImpl") EmployeeDao theEmployeeDao){
         employeeDao = theEmployeeDao;
     }
 
