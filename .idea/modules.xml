@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/crudDemo/crudDemo.iml" filepath="$PROJECT_DIR$/crudDemo/crudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crudDemoJPA/crudDemoJPA.iml" filepath="$PROJECT_DIR$/crudDemoJPA/crudDemoJPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crudRest/crudRest.iml" filepath="$PROJECT_DIR$/crudRest/crudRest.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" filepath="$PROJECT_DIR$/tutorials/hbEagerVsLazy/hbEagerVsLazy.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorials/hbManyToMany/hbManyToMany.iml" filepath="$PROJECT_DIR$/tutorials/hbManyToMany/hbManyToMany.iml" />

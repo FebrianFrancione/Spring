@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/spring-security-03/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot/SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/crudDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/crudDemoJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/crudRest/pom.xml" />
       </list>
     </option>
   </component>

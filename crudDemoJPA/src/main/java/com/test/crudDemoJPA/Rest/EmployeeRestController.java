@@ -1,7 +1,7 @@
-package com.test.crudDemo.Rest;
+package com.test.crudDemoJPA.Rest;
 
-import com.test.crudDemo.service.EmployeeService;
-import com.test.crudDemo.entity.Employee;
+import com.test.crudDemoJPA.entity.Employee;
+import com.test.crudDemoJPA.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

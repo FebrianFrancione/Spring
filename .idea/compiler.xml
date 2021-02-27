@@ -12,6 +12,8 @@
         <module name="spring-security-demo-01-base-app" />
         <module name="web-customer-tracker" />
         <module name="SpringBoot" />
+        <module name="crudRest" />
+        <module name="crudDemoJPA" />
         <module name="demo" />
         <module name="spring-security-03" />
       </profile>
@@ -19,6 +21,8 @@
     <bytecodeTargetLevel>
       <module name="01-base-app" target="1.8" />
       <module name="crudDemo" target="15" />
+      <module name="crudDemoJPA" target="15" />
+      <module name="crudRest" target="15" />
       <module name="DbApp" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo (1) (com.example.spring)" target="15" />
@@ -40,6 +44,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBoot" options="-parameters" />
       <module name="crudDemo" options="-parameters" />
+      <module name="crudDemoJPA" options="-parameters" />
+      <module name="crudRest" options="-parameters" />
       <module name="demo (1) (com.example.spring)" options="-parameters" />
       <module name="spring" options="-parameters" />
     </option>
