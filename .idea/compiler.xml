@@ -10,6 +10,7 @@
         <module name="spring-security-demo-02-basic-security" />
         <module name="spring-security" />
         <module name="spring-security-demo-01-base-app" />
+        <module name="MyWebsite" />
         <module name="web-customer-tracker" />
         <module name="SpringBoot" />
         <module name="crudRest" />
@@ -26,6 +27,8 @@
       <module name="DbApp" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo (1) (com.example.spring)" target="15" />
+      <module name="MyWebsite" target="11" />
+      <module name="Personal-Website" target="1.8" />
       <module name="servlets" target="1.8" />
       <module name="spring" target="15" />
       <module name="spring-security" target="1.8" />
@@ -42,6 +45,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyWebsite" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
       <module name="crudDemo" options="-parameters" />
       <module name="crudDemoJPA" options="-parameters" />
