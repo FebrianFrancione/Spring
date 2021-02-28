@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf title</title>
+    <link rel="stylesheet" th:href="@{demo.css}">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="menu">
+            <h3 class="logo">Con<span>tact</span></h3>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="main">
+            <header>
+                <div class="overlay">
+                    <div class="inner">
+                        <h2 class="title">Contact Me</h2>
+                        <p>
+                            I'm always looking for feedback and new opportunities. Have a message? Advice? Contact me by email!
+                        </p>
+
+                        <form action="#" th:action="@{/Contact}" th:object="${feedback}" method="post">
+                            <table>
+                                <tr>
+                                    <label>Name:</label>
+                                    <input type="text" th:field="*{name}" />
+                                    <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</span>
+                                </tr>
+                                <tr>
+                                    <label>Email:</label>
+                                    <input type="text" th:field="*{email}" />
+                                    <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error</span>
+                                </tr>
+                                <tr>
+                                    <label>Feedback:</label>
+                                    <input type="text" th:field="*{feedback}" />
+                                    <span th:if="${#fields.hasErrors('feedback')}" th:errors="*{feedback}">Feedback error</span>
+                                </tr>
+                                <tr>
+                                    <td><button type="submit">Submit</button></td>
+                                </tr>
+                            </table>
+                        </form>
+
+                        <!--                        <form action="#" th:action="@{/Contact}" th:object="${feedbackForm}" method="post">-->
+                        <!--                            &lt;!&ndash;                            <p>Name: <input type="text" th:field="*{name}" /></p>&ndash;&gt;-->
+                        <!--                            <p>-->
+                        <!--                            <td>Name:</td>-->
+                        <!--                            <td><input type="text" th:field="*{name}" /></td>-->
+                        <!--                            <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>-->
+                        <!--                            </p>-->
+
+                        <!--                            <p>-->
+                        <!--                            <td>Email:</td>-->
+                        <!--                            <td><input type="text" th:field="*{email}" /></td>-->
+                        <!--                            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</td>-->
+                        <!--                            </p>-->
+
+                        <!--                            <p>-->
+                        <!--                            <td>Feedback:</td>-->
+                        <!--                            <td><input type="text" th:field="*{feedback}" /></td>-->
+                        <!--                            <td th:if="${#fields.hasErrors('feedback')}" th:errors="*{feedback}">Feedback Error</td>-->
+                        <!--                            </p>-->
+
+                        <!--                            &lt;!&ndash;                            <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" />&ndash;&gt;-->
+                        <!--                            &lt;!&ndash;                            </p>&ndash;&gt;-->
+                        <!--                            <p><button type="submit">Submit</button></p>-->
+                        <!--                        </form>-->
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </div>
+
+    <div class="links">
+        <ul>
+            <li>
+                <a th:href="@{/}"  style="--i: 0.05s;">Home</a>
+            </li>
+            <li>
+                <a th:href="@{Projects}" style="--i: 0.15s;">Projects</a>
+            </li>
+            <li>
+                <a th:href="@{CurriculumVitae}" style="--i: 0.2s;">Curriculum Vitae</a>
+            </li>
+            <li>
+                <a th:href="@{About}" style="--i: 0.25s;">About</a>
+            </li>
+            <li>
+                <a th:href="@{Contact}" style="--i: 0.3s;">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

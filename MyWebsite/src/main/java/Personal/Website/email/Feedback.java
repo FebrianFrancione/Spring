@@ -1,20 +1,19 @@
 package Personal.Website.email;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.*;
 
 public class Feedback {
 
-    @NotNull
+    @NotBlank
+    @Size(min=1, max=25)
     private String name;
 
-    @NotNull
-    @Email
+    @NotBlank
+    @Email(message = "Please enter a valid e-mail address")
     private String email;
 
-    @NotNull
-    @Min(5)
+    @NotBlank
+    @Size(min=5, max=300)
     private String feedback;
 
     public String getName() {
