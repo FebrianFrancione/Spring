@@ -3,6 +3,8 @@ package Personal.Website.Controller;
 
 import Personal.Website.email.EmailConfig;
 import Personal.Website.email.Feedback;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -41,24 +43,22 @@ public class MyController implements WebMvcConfigurer {
         }
 //        else{
 //
-//            JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-//            mailSender.setHost(this.emailConfig.getHost());
-//            mailSender.setPort(this.emailConfig.getPort());
-//            mailSender.setUsername(this.emailConfig.getUsername());
-//            mailSender.setPassword(this.emailConfig.getPassword());
-//
-//            //create new mail instance
-//            SimpleMailMessage mailMessage = new SimpleMailMessage();
-//            mailMessage.setFrom(feedback.getEmail());
-//            mailMessage.setTo("febrian.francione@gmail.com");
-//            mailMessage.setSubject("New feedback from " + feedback.getName());
-//            mailMessage.setText(feedback.getFeedback());
-//
-//            //send mail
-//            mailSender.send(mailMessage);
-//            return "Home";
-//        }
-        return "result";
+        JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+        mailSender.setHost(this.emailConfig.getHost());
+        mailSender.setPort(this.emailConfig.getPort());
+        mailSender.setUsername(this.emailConfig.getUsername());
+        mailSender.setPassword(this.emailConfig.getPassword());
+
+        //create new mail instance
+        SimpleMailMessage mailMessage = new SimpleMailMessage();
+        mailMessage.setFrom(feedback.getEmail());
+        mailMessage.setTo("febrian.francione@gmail.com");
+        mailMessage.setSubject("New feedback from " + feedback.getName());
+        mailMessage.setText(feedback.getFeedback());
+
+        //send mail
+        mailSender.send(mailMessage);
+        return "Home";
     }
 
     @GetMapping("/")

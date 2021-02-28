@@ -298,3 +298,11 @@ ul {
 .container.active .main:hover {
     transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
 }
+
+
+
+/*regular csss*/
+.textboxid{
+    height:200px;
+    font-size:14pt;
+}
