@@ -1,9 +1,19 @@
 package Personal.Website.Controller;
 
 
+import Personal.Website.email.EmailConfig;
+import Personal.Website.email.Feedback;
+import org.springframework.mail.MailMessage;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.ValidationException;
+
 
 @Controller
 public class MyController {
