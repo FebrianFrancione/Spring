@@ -326,3 +326,10 @@ ul {
 .cv-picture{
     width: 30%;
 }
+/*.wrk-exp-inner{*/
+/*    list-style-type: square;*/
+/*}*/
+
+.wrk-exp li:last-child{
+    margin-bottom: 7%;
+}
