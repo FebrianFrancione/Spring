@@ -303,6 +303,7 @@ ul {
     }
 }
 
+
 .container.active .main:hover + .shadow.one {
     transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
 }
