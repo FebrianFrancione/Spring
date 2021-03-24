@@ -8,20 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="crudDemo" />
         <module name="spring-security-demo-02-basic-security" />
-        <module name="spring-security" />
+        <module name="crudDemo (1)" />
+        <module name="crudDemo (2)" />
         <module name="spring-security-demo-01-base-app" />
-        <module name="MyWebsite" />
+        <module name="Website" />
         <module name="web-customer-tracker" />
         <module name="SpringBoot" />
-        <module name="crudRest" />
         <module name="crudDemoJPA" />
         <module name="demo" />
+        <module name="crudDemo (3)" />
+        <module name="spring-security" />
+        <module name="MyWebsite" />
+        <module name="crudRest" />
         <module name="spring-security-03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-base-app" target="1.8" />
       <module name="crudDemo" target="15" />
+      <module name="crudDemo (1)" target="15" />
+      <module name="crudDemo (2)" target="15" />
+      <module name="crudDemo (3)" target="15" />
       <module name="crudDemoJPA" target="15" />
       <module name="crudRest" target="15" />
       <module name="DbApp" target="1.8" />
@@ -41,13 +48,18 @@
       <module name="spring-security-demo-03-login" target="1.8" />
       <module name="SpringBoot" target="15" />
       <module name="web-customer-tracker" target="1.8" />
+      <module name="Website" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MyWebsite" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
+      <module name="Website" options="-parameters" />
       <module name="crudDemo" options="-parameters" />
+      <module name="crudDemo (1)" options="-parameters" />
+      <module name="crudDemo (2)" options="-parameters" />
+      <module name="crudDemo (3)" options="-parameters" />
       <module name="crudDemoJPA" options="-parameters" />
       <module name="crudRest" options="-parameters" />
       <module name="demo (1) (com.example.spring)" options="-parameters" />
