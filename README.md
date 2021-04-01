@@ -1,11 +1,13 @@
-# Spring
+# Spring: Mini-Projects and Personal Website
+Spring Repository for mini-projects (following Udemy Course) and personal website using the Spring framework. Concepts learned: CRUD (REST) Operations, Hibernate, MySql, JPA, Spring Security.
 
-A collection of files used for Spring tutorials.
+## Created By
+Febrian Francione
 
-Goal is to learn the starting steps of Spring.
-
-Uses tomcat servlets and mysql
-
-Concepts learned: CRUD operations, Hibernate, mysql connected apps, dbapp
-
-Has My personal website
+## Built With
+ 
+* [Java](https://www.java.com/en/) - Backend programming
+* [Spring framework](https://spring.io/) - Backend framework (Spring Boot)
+* [MySql](https://www.mysql.com/) - Database
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Thymeleaf](https://www.thymeleaf.org/) - Front End Templating with HTML and CSS
